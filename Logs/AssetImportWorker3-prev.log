@@ -1,0 +1,1376 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/amelieploil/BigProj
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49498
+Successfully changed project path to: /Users/amelieploil/BigProj
+/Users/amelieploil/BigProj
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8100745216] Host "[IP] 10.91.59.41 [Port] 0 [Flags] 2 [Guid] 3864851804 [EditorId] 3864851804 [Version] 1048832 [Id] OSXEditor(0,Amelies-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8100745216] Host "[IP] 10.91.59.41 [Port] 0 [Flags] 2 [Guid] 3864851804 [EditorId] 3864851804 [Version] 1048832 [Id] OSXEditor(0,Amelies-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 7.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/amelieploil/BigProj/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000912 seconds.
+- Loaded All Assemblies, in  0.219 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.139 seconds
+Domain Reload Profiling: 358ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (64ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (103ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.435 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (436ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5609 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (0.5 MB). Loaded Objects now: 6076.
+Memory consumption went from 246.0 MB to 245.5 MB.
+Total: 2.688750 ms (FindLiveObjects: 0.152125 ms CreateObjectMapping: 0.106792 ms MarkObjects: 2.193792 ms  DeleteObjects: 0.235583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2defc7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.278 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.957 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (957ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6092.
+Memory consumption went from 218.8 MB to 218.3 MB.
+Total: 4.203166 ms (FindLiveObjects: 0.532625 ms CreateObjectMapping: 0.207208 ms MarkObjects: 3.239083 ms  DeleteObjects: 0.223584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.229 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 723ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6108.
+Memory consumption went from 224.0 MB to 223.5 MB.
+Total: 2.889084 ms (FindLiveObjects: 0.195042 ms CreateObjectMapping: 0.109792 ms MarkObjects: 2.362083 ms  DeleteObjects: 0.221792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.223 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 715ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (491ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6124.
+Memory consumption went from 229.1 MB to 228.6 MB.
+Total: 2.756083 ms (FindLiveObjects: 0.202042 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.260625 ms  DeleteObjects: 0.194916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.230 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 725ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6140.
+Memory consumption went from 234.2 MB to 233.7 MB.
+Total: 2.735750 ms (FindLiveObjects: 0.199417 ms CreateObjectMapping: 0.088083 ms MarkObjects: 2.244459 ms  DeleteObjects: 0.203291 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.226 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 718ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6156.
+Memory consumption went from 239.4 MB to 238.8 MB.
+Total: 2.809209 ms (FindLiveObjects: 0.216666 ms CreateObjectMapping: 0.095542 ms MarkObjects: 2.263500 ms  DeleteObjects: 0.233000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Import Request.
+  Time since last request: 30614.719466 seconds.
+  path: Assets/Packs/Idyllic Fantasy Nature/Prefabs/Bush_01_02.prefab
+  artifactKey: Guid(0822ffcc2f3109548b8fabb01f0f2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packs/Idyllic Fantasy Nature/Prefabs/Bush_01_02.prefab using Guid(0822ffcc2f3109548b8fabb01f0f2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205f15acb0e541fae37a597d298902b0') in 0.163682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.253 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1105ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6218.
+Memory consumption went from 249.7 MB to 249.2 MB.
+Total: 3.014750 ms (FindLiveObjects: 0.226334 ms CreateObjectMapping: 0.133542 ms MarkObjects: 2.434667 ms  DeleteObjects: 0.219750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.017 seconds
+Domain Reload Profiling: 1412ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1017ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6234.
+Memory consumption went from 253.4 MB to 252.9 MB.
+Total: 3.146209 ms (FindLiveObjects: 0.404334 ms CreateObjectMapping: 0.107958 ms MarkObjects: 2.398167 ms  DeleteObjects: 0.235167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.230 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 732ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6250.
+Memory consumption went from 258.7 MB to 258.2 MB.
+Total: 3.166959 ms (FindLiveObjects: 0.244833 ms CreateObjectMapping: 0.141500 ms MarkObjects: 2.536125 ms  DeleteObjects: 0.243792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b80b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.232 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 731ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6266.
+Memory consumption went from 263.9 MB to 263.4 MB.
+Total: 2.830958 ms (FindLiveObjects: 0.203166 ms CreateObjectMapping: 0.097125 ms MarkObjects: 2.304167 ms  DeleteObjects: 0.225916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x176547000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.397 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.978 seconds
+Domain Reload Profiling: 1376ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (978ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6282.
+Memory consumption went from 267.5 MB to 266.9 MB.
+Total: 3.486333 ms (FindLiveObjects: 0.264583 ms CreateObjectMapping: 0.138125 ms MarkObjects: 2.813125 ms  DeleteObjects: 0.269959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x175387000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.289 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6298.
+Memory consumption went from 272.6 MB to 272.1 MB.
+Total: 3.196541 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.149375 ms MarkObjects: 2.546458 ms  DeleteObjects: 0.257083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b84b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.280 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (871ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6314.
+Memory consumption went from 277.8 MB to 277.3 MB.
+Total: 3.475250 ms (FindLiveObjects: 0.223750 ms CreateObjectMapping: 0.133292 ms MarkObjects: 2.827750 ms  DeleteObjects: 0.290083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b84b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.282 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.926 seconds
+Domain Reload Profiling: 1209ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (926ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6330.
+Memory consumption went from 283.0 MB to 282.5 MB.
+Total: 2.899166 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.126416 ms MarkObjects: 2.326458 ms  DeleteObjects: 0.205625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b84b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.910 seconds
+Domain Reload Profiling: 1620ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.5 MB). Loaded Objects now: 6346.
+Memory consumption went from 287.7 MB to 287.2 MB.
+Total: 3.375042 ms (FindLiveObjects: 0.258708 ms CreateObjectMapping: 0.114917 ms MarkObjects: 2.774375 ms  DeleteObjects: 0.226417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ButterflySpawnArea.cs: dbd62ecbfbef1a5aa776448a92fe6f55 -> 7a4e85561a386efbc249c80fddf757cf
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogController.cs: 507f00e639c343e234415111f80085a8 -> facbd04e227607875732ae176343c57f
+  custom:scripting/monoscript/fileName/HeightFogGUI.cs: 29f94219a62c8b0874bfb721810cfd5b -> aec4e17dd7701bb8d7e929756a4af25f
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraMovement.cs: 468f1deb05c5ceddee007d11aff467b8 -> 64482079f3854ff800450249a0a3172b
+  custom:scripting/monoscript/fileName/BushLeafTrigger.cs: e1e4911a9ffdc85a03b6ad2db2dc4fe0 -> 2188b13a7274e71441831392b5326827
+  custom:scripting/monoscript/fileName/ObjectFogControllerEditor.cs: b2bd4797a0607e5a934c246ae15459b1 -> 45ef3514a110b3a7b682b9c974e012b5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VegetationBendControl.cs: 65a869ef1db1c8384fd4f557be6dc1b6 -> bb07f9a25d480396c774961c20736811
+  custom:scripting/monoscript/fileName/ObjectFogController.cs: b8d37926cd7f59533260d87831247213 -> 17cb631ed7335d4f970557980ac29b64
+  custom:scripting/monoscript/fileName/WindControl.cs: acc6971a7bf6ad2ecac31b2a6cd9b154 -> f6b532fe4cf57c7f97c43e1601d3d227
+  custom:scripting/monoscript/fileName/ExitGame.cs: 79b96a4182cb9efac1e81315977a22b8 -> e6a4ab58c698fe436e0bcee349939749
+  custom:scripting/monoscript/fileName/ButterflySpawn.cs: d2556907404472bae9d436ec89571854 -> 4b3f63d3369d1d3252fec29e76a21225
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 613e973f553be5859c2181a5d3c22ce5 -> f5dc59970968a639278b4df2ad95ce8d
+  custom:scripting/monoscript/fileName/HeightFogGUI-LWRP.cs: 7308e6993e1378bd35a22c5df63e4f7b -> 54445ea16eb6fe57cc167f3c87d81279
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GlobalObjectFogControllerEditor.cs: e283156ca16ee4c9ebd0ab6b901d98ea -> ecabf254299c2d861caf49b34a9951c4
